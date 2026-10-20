@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-20",
+  "python_version": "3.14.7",
+  "dependency_versions": {
+    "mcp": "1.30.0",
+    "pywin32": "312",
+    "Pillow": "12.3.0"
+  },
+  "syntax_files": [
+    "inventor_backend.py",
+    "quickchanger_model.py",
+    "server.py",
+    "setup_bridge.py",
+    "verify_mcp.py"
+  ],
+  "source_hashes_matched": 6,
+  "mcp_initialized": true,
+  "tool_count": 12,
+  "tools": [
+    "inventor_assembly_explode",
+    "inventor_assembly_preview",
+    "inventor_create_plate",
+    "inventor_create_quickchanger",
+    "inventor_inspect_assembly",
+    "inventor_inspect_model",
+    "inventor_launch",
+    "inventor_open_assembly",
+    "inventor_open_model",
+    "inventor_preview",
+    "inventor_status",
+    "inventor_update_plate"
+  ],
+  "tool_calls": 0,
+  "inventor_connected": false,
+  "inventor_launched": false,
+  "cad_models_generated": 0,
+  "setup_or_registration_run": false,
+  "original_source_modified": false
+}

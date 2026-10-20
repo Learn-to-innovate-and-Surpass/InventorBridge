@@ -1,0 +1,59 @@
+{
+  "project": "InventorBridge",
+  "source": "Current author-maintained desktop InventorBridge installation",
+  "date": "2026-10-20",
+  "scope": "Core interface and deployment helpers only",
+  "source_files_copied_unchanged": true,
+  "helper_layout": "Portable setup and verification scripts flattened into the release root as required by their ROOT resolution",
+  "excluded": [
+    ".venv",
+    ".codex",
+    "__pycache__",
+    "models",
+    "previews",
+    "logs",
+    "reports",
+    "examples",
+    "task-specific modeling scripts",
+    "historical screenshots and CAD outputs",
+    "Autodesk software and licenses"
+  ],
+  "files": [
+    {
+      "source_relative_path": "server.py",
+      "release_path": "server.py",
+      "bytes": 6857,
+      "sha256": "11064c5940384d3f5f4f5b629c0eea4aea62af3f27d6b4a07dda288492454c9a"
+    },
+    {
+      "source_relative_path": "inventor_backend.py",
+      "release_path": "inventor_backend.py",
+      "bytes": 18332,
+      "sha256": "6d45d0f65a36569fa833899c8efdfc2832265a182ad3d29a3beb6250e80494f9"
+    },
+    {
+      "source_relative_path": "quickchanger_model.py",
+      "release_path": "quickchanger_model.py",
+      "bytes": 27700,
+      "sha256": "0b371a9417009ff4ef69c6b36159ec081b83e489efe3cab1c51eb5e51a823cfb"
+    },
+    {
+      "source_relative_path": "requirements.txt",
+      "release_path": "requirements.txt",
+      "bytes": 40,
+      "sha256": "2b359fe53f13c21b9c88b5e50c152cee6bd606a8784bf94fc2f91b6086b77a8e"
+    },
+    {
+      "source_relative_path": "portable_tools/setup_bridge.py",
+      "release_path": "setup_bridge.py",
+      "bytes": 8256,
+      "sha256": "b0f26ea1f332fa2e081cd24ca2ce7f35fc3b99c95dc0585bdaf7ed515d7fbf13"
+    },
+    {
+      "source_relative_path": "portable_tools/verify_mcp.py",
+      "release_path": "verify_mcp.py",
+      "bytes": 2997,
+      "sha256": "20884021df6338308788b2ec74ed46334fe16dd8a616f6cb975b02d73ea5104a"
+    }
+  ]
+}
